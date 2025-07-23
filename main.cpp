@@ -456,6 +456,7 @@ int main() {
                 highScore = playerScore;
             }
             DrawTextEx(titleFont, "ROCKET RUN!", (Vector2){GetScreenWidth()/2 - MeasureTextEx(titleFont, "ROCKET RUN!", 50, 1).x/2, 150}, 50, 1, DarkBlue);
+            DrawTextEx(titleFont, "Click screen for audio", (Vector2){GetScreenWidth()/2 - MeasureTextEx(titleFont, "Click screeen for audio", 15, 1).x/2, 10}, 15, 1, DarkBlue);
             DrawTextEx(titleFont, "Pick a starter to begin the game", (Vector2){GetScreenWidth()/2 - MeasureTextEx(titleFont, "Pick a starter to begin the game", 27, 1).x/2, 250}, 27, 1, DarkBlue);
             
             DrawTextEx(titleFont, highScoreText.c_str(), 
